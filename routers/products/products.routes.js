@@ -63,5 +63,13 @@ router.delete('/:id', (req, res) => {
 
 });
 
+router.use('*', (req, res) => {
+    res.status(404).send(
+        {
+            error: -2,
+            decripcion: `Ruta ${req.path} metodo ${req.method}, no implementada`   
+        });
+    })
+
 //--------------------------------------------------------------------------------------------------------------
 module.exports = router;                    //Exportamos nuestro Router

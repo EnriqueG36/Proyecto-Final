@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "timeStamp": "15/10/2022 06:47:08",
+        "productos": []
+    },
+    {
+        "id": 2,
+        "timeStamp": "15/10/2022 06:47:16",
+        "productos": [
+            {
+                "id": 5,
+                "timeStamp": "15/10/2022 04:05:24",
+                "nombre": "Lentes",
+                "descripcion": "Lentes con filtr0 luz azul",
+                "codigo": 654,
+                "foto": "http:/ algo lentes",
+                "precio": 400,
+                "stock": 20
+            },
+            {
+                "id": 6,
+                "timeStamp": "15/10/2022 04:27:16",
+                "nombre": "Bocinas",
+                "descripcion": "Bocinas 2.1",
+                "codigo": 587,
+                "foto": "http:/ algo bocinas",
+                "precio": 700,
+                "stock": 21
+            },
+            {
+                "id": 2,
+                "nombre": "Mouse",
+                "descripcion": "Mouse Logitech",
+                "codigo": 7845,
+                "foto": "http:/ algo mouse",
+                "precio": 450,
+                "stock": 10
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "timeStamp": "15/10/2022 06:47:25",
+        "productos": [
+            {
+                "id": 4,
+                "nombre": "RX6700XT",
+                "descripcion": "GPU",
+                "codigo": 8945,
+                "foto": "http:/ algo gpu",
+                "precio": 14000,
+                "stock": 6
+            }
+        ]
+    }
+]

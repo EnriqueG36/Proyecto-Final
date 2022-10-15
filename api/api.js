@@ -6,7 +6,6 @@ const productos = JSON.parse(contenidoArchivo);                                 
 
 //Clase API para el manejo de objetos producto
 
-const hoy = new Date();                                             //Nuesva instancia de la clase Date, con alcance global
 
 class API {
     constructor() {
@@ -33,7 +32,7 @@ class API {
 
     addNew(body){
 
-        //const hoy = new Date();                                                 //Nueva isntancia de la clase Date (BORRAR)
+        const hoy = new Date();                                                 //Nueva isntancia de la clase Date (BORRAR)
                
         const {nombre, descripcion, codigo, foto, precio, stock} = body;
         if (!nombre || !descripcion || !codigo || !foto || !precio || !stock) {
@@ -59,7 +58,7 @@ class API {
 
     updateById(id, body){
 
-        //const hoy = new Date();                                                 //Nueva isntancia de la clase Date (BORRAR)
+        const hoy = new Date();                                                 //Nueva isntancia de la clase Date (BORRAR)
 
         //Buscamos si el objeto a actualizar existe en el arreglo productos y obtenemos el indice
         const indexProductos = this.productos.findIndex((product) => product.id === +(id));
